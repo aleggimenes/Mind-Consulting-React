@@ -1,0 +1,70 @@
+.dashboard {
+  position: absolute;
+  display: grid;
+  height: 650px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  top: 66.4px;
+}
+.introducao-dashboard {
+  color: white;
+  background-color: black;
+  display: block;
+  content: '';
+  background: url('../../../assets/edit-4.jpg') no-repeat center;
+  background-size: cover;
+  height: 220px;
+}
+.introducao-dashboard h1 {
+  text-align: center;
+  padding-top: 70px;
+  color: white;
+  text-transform: uppercase;
+}
+.introducao-dashboard h1:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #e01b48;
+  margin: 14px auto 10px auto;
+}
+.grid {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  padding-top: 20px;
+}
+.dashboard .side {
+  color: white;
+  background-color: black;
+  display: block;
+  content: '';
+  background: url('../../../assets/dashboard-removebg.png') no-repeat center;
+  height: 520px;
+  margin-top: -100px;
+}
+.quebra-dashboard {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  margin-bottom: -20px;
+  color: black;
+  text-transform: uppercase;
+}
+.container-dashboard {
+  padding-top: 20px;
+}
+.quebra-dashboard:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #e01b48;
+  margin: 14px auto 10px auto;
+}

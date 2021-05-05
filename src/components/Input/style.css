@@ -1,0 +1,29 @@
+input {
+  border: 0px solid black;
+  display: block;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  width: 60%;
+  transition: 0.2s;
+  margin-left: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+input:focus,
+input:hover {
+  outline: none;
+  border-color: #e01b48;
+  background: white;
+  box-shadow: 0 0 0 3px #e01b48;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1;
+  padding-bottom: 0.5rem;
+  margin-left: 20px;
+}

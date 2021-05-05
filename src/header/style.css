@@ -1,0 +1,21 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: #343837;
+}
+a{
+  color: white;
+  margin-right: 30px;
+  text-decoration:none;
+}
+li{
+  list-style-type: none;
+}
+ul{
+  display: flex;
+}
+nav {
+  margin-top: 9px;
+  float: right;
+}

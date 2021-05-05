@@ -1,0 +1,49 @@
+.login {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  gap: 2rem;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  top: 66.4px;
+}
+/*#F3615A*/
+.container-1 {
+  color: white;
+  background-color: black;
+  display: block;
+  content: '';
+  background: url('../assets/desk.jpg') no-repeat center;
+  background-size: cover;
+}
+.login button {
+  margin-top: -10px;
+  margin: 0 auto;
+}
+.login h1 {
+  margin-bottom: 85px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.login h1:after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 3px;
+  background: #e01b48;
+  margin: 14px auto 10px auto;
+  padding-left: 36px;
+}
+.container-2 {
+  text-align: left;
+  background-color: white;
+  margin: -8px;
+  margin-left: -32px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}

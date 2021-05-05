@@ -1,0 +1,93 @@
+.edit {
+  position: absolute;
+  display: grid;
+  height: 750px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  top: 66.4px;
+}
+.introducao-edit {
+  color: white;
+  background-color: black;
+  display: block;
+  content: '';
+  background: url('../../../assets/edit5.jpg') no-repeat center;
+  background-size: cover;
+  height: 220px;
+}
+.introducao-edit h1 {
+  text-align: center;
+  padding-top: 70px;
+  color: white;
+  text-transform: uppercase;
+}
+.introducao-edit h1:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #e01b48;
+  margin: 14px auto 10px auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.side {
+  background: url('../../../assets/editar-7.png') no-repeat center;
+  height: 520px;
+}
+.quebra-edit {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  margin-bottom: -20px;
+  color: black;
+  text-transform: uppercase;
+}
+.container-edit {
+  background-color: #e01b48;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  place-items: stretch;
+  margin-bottom: 65px;
+}
+.quebra-edit:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #e01b48;
+  margin: 14px auto 10px auto;
+}
+.edit .animeLeft {
+  margin-top: 20px;
+}
+.edit button {
+  background-color: black;
+  color: white;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.edit button:hover,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px black, 0 0 0 4px black;
+}
+.edit input {
+  width: 80%;
+}
+.btn {
+  padding-bottom: 15px;
+}
